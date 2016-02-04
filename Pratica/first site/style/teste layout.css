@@ -1,0 +1,41 @@
+/*
+ * CSS Reset
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+#topo {
+    height: 50px;
+    background: blue;
+}
+
+#topo h1 {
+    color: white;
+    padding: 5px;
+    font: 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#menuprincipal {
+    background: orange;
+    height: 38px;
+}
+
+#menuprincipal  ul li a {
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-right: 1px solid blue;
+}
+
+#menuprincipal ul li a:hover {
+    background: green;
+    color: #FFF;
+}
+

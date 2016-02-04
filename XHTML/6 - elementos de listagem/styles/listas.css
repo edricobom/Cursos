@@ -1,0 +1,19 @@
+ul {
+	list-style: circle;
+	list-style: disc;
+	list-style: square;
+	list-style-image: url(images/bullets.png);
+}
+
+ol {
+	list-style: lower-roman;
+	list-style: upper-roman;
+	list-style: hebrew;
+	list-style: upper-alpha;
+}
+
+dl {}
+
+dt { font-weight: bold; }
+
+dd {}

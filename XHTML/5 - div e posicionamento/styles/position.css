@@ -1,0 +1,25 @@
+div#principal {
+	width: 450px;
+	height: 450px;
+	background: green;
+	margin-left: 100px;
+	position: relative; /* faz com que o div filho, use o pai como referencia */
+}
+
+div div { 
+	width: 200px;
+	height: 200px;
+	background: orange;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+
+#fixado {
+	width: 200px;
+	height: 200px;
+	right: 50px;
+	top: 50px;
+	position: fixed;
+	background: red;
+}

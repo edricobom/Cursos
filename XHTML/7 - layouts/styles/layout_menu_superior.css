@@ -1,0 +1,70 @@
+/*
+ * CSS Reset
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#estrutura {
+	width: 800px;
+	margin: 0 auto; /* centralizar */
+	border: 1px solid black;
+}
+
+#topo {
+	height: 50px;
+	background: blue;
+}
+
+#topo h1 {
+	color: white;
+	padding: 5px;
+	font: 20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#menu-horizontal {
+	background: orange;
+	height: 38px;
+}
+
+#menu-horizontal ul li a {
+	display: block;
+	float: left;
+	padding: 10px 20px;	
+	text-decoration: none;
+	border-right: 1px solid blue;
+}
+
+#menu-horizontal ul li a:hover {
+	background: green;
+	color: #FFF;
+}
+
+#menu {
+	width: 150px;
+	float: left;
+	clear: both;
+}
+
+#menu ul li a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid black;
+}
+
+#conteudo {
+	width: 650px;
+	float:left;
+}
+
+#footer p {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #CCC;
+	clear: both;
+}

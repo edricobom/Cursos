@@ -1,0 +1,20 @@
+.esquerda, .direita {
+	width: 200px;
+	border: 1px solid black;
+}
+
+.esquerda {
+	float: left;
+}
+
+.direita {
+	float: right;
+}
+
+.footer p {
+	height: 25px;
+	margin: 0;
+	background: blue;
+	clear: both;
+	text-align: center;
+}

@@ -1,0 +1,22 @@
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+}
+
+ul li a {
+	display: block; /* transforma o a em bloco, para quando passar o mouse, tudo mudar */
+	height: 30px;
+	line-height: 30px; /* centralizar verticalmente o elemento */
+	padding-left: 10px;
+
+	border: 5px groove black;
+	text-decoration: none;
+	color: black;
+}
+
+ul li a:hover {
+	background: #5ac8ff;
+	color: white;
+}

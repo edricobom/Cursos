@@ -1,0 +1,14 @@
+fieldset{
+    weight=200px;
+}
+
+.rotulo{
+    font-family: Times New Roman;
+    font-size:14px;
+    float:left;
+    clear:both;
+}
+
+input[type=text]:focus {
+    font-size: 20px;
+}

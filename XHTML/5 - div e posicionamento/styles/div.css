@@ -1,0 +1,21 @@
+#estrutura{
+    border:1px solid black;
+    width:800px auto;
+    height:600px ;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 100px;
+    background:green;
+    }
+#topo h1{
+    color: white;
+    margin: 0;
+    padding:20px ;
+    text-align: center;
+}
+#texto {
+    padding: 0 10px;
+    font:12px Verdana;
+}

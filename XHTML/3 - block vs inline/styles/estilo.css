@@ -1,0 +1,7 @@
+h1 {background: red;} /*ambos elementos em blocos*/
+p {background: blue;}
+
+a{background: yellow;}
+
+a{background: yellow; display: block;}/*mostra um elemento inline como block
+pode ser usado ao contrário tbm */

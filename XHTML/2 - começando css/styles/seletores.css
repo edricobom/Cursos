@@ -1,0 +1,25 @@
+/*
+-universal
+-elemento
+-agrupados
+-de classe
+-de id
+-descendentes
+-pseudo-seletores
+*/
+*{}
+.paragrafo {} /*Universal*/
+h1{} /*elemento*/
+p{}
+h1, .paragrafo {}/**/
+.paragrafo{font-size: 18px;}/*classe*/
+
+#titulo {color: red;}/*id (único)*/
+
+ul li {fon-size: 16px} /*descendentes*/
+p b {color: green}
+
+a{text-decoration : none;}
+a:hover {text-decoration: underline; font-size:24px;} /*pseudo seletores*/
+a:visited {color: red;}
+a:active {color: green;}

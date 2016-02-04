@@ -1,0 +1,101 @@
+/*Twitter Bootstrap 3 - scaffolding*/
+.fonte{
+    font-family: "Century Schoolbook L";
+    font-size: 14px;
+    color: #8db6ef;
+}
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+h1{
+    font-size:30px;
+    }
+h2{
+    font-size: 18px;
+}
+div {
+    width:auto;
+    margin: auto;
+}
+
+h1{
+
+    background: #4db6ff;
+    text-align: center;
+}
+
+dt{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+dl{
+    font-size:14px;
+}
+
+#ultimapergunta{
+    color: #aa3b37;
+}
+
+#ultimaresposta{
+    color: #dc3800;
+    font-size: 25px;
+}
+
+dd{
+    margin:0;
+}
+
+a{  background:#96d0ff;
+    text-decoration: none;
+    color:black;
+    font-family:Times New Roman ;
+
+}
+
+a:hover {background: #377c12;color:white}
+/*a:visited{color:red;}
+a:active{color:green;} */
+
+
+ul li a{  display: block;
+
+}
+
+ul {list-style: none;
+
+    padding:0;
+    margin:0;
+
+}
+ol{
+    width:100px;
+    margin-right: 0;
+    margin-left:auto;
+    text-align: right;
+}
+ol li{
+    border: 5px groove black;
+    display:block;
+
+}
+
+#cabeçalho{
+    width:100px;
+    padding:0;
+
+
+}
+#menu  div{
+    height: 40px;
+    border: 2px groove green;
+    background: #96d0ff;
+}
+#menu ul li a {
+    float: left;
+    padding: 10px 20px;
+    border-right: 3px groove blue;
+}
