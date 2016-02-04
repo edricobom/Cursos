@@ -11,10 +11,22 @@ abstract class Eletronico
 
     protected $valor;
     protected $consumo;
+    protected $nome;
 
     protected function pula(){
         echo "<br />";
     }
+
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
     public function getValor(){
         return $this->valor;
     }
@@ -45,7 +57,8 @@ interface IVideogame{
 class Celular extends Eletronico implements Icelular
 {
     private $tamanhotela;
-    public function __construct($preco,$wats,$tela){
+    public function __construct($nome,$preco,$wats,$tela){
+        $this->setNome($nome);
         $this->setValor($preco);
         $this->setConsumo($wats);
         $this->setTamanhotela($tela);
@@ -58,6 +71,8 @@ class Celular extends Eletronico implements Icelular
 
     public function exibirInformaces()
     {
+        echo $this->getNome();
+        $this->pula();
         echo $this->getValor();
         $this->pula();
         echo $this->getConsumo();
@@ -83,6 +98,8 @@ class Videogame extends Eletronico implements IVideogame
 
     public function exibirInformaces()
     {
+        echo $this->getNome();
+        $this->pula();
         echo $this->getValor();
         $this->pula();
         echo $this->getConsumo();
@@ -100,16 +117,17 @@ class Videogame extends Eletronico implements IVideogame
         }
     }
 
-    public function __construct($preco,$wats,$listajogos="")
+    public function __construct($nome,$preco,$wats,$listajogos="")
     {
+        $this->setNome($nome);
         $this->setValor($preco);
         $this->setConsumo($wats);
         $this->setListajogos($listajogos);
     }
 }
 
-$nokia = new Celular(400,200,20);
+$nokia = new Celular("Nokia",400,200,20);
 $nokia->exibirInformaces();
 $jogos = array("Mario","Pokemon","Wii sports");
-$wii = new Videogame(800,300,$jogos);
+$wii = new Videogame("Wii",800,300,$jogos);
 $wii->exibirInformaces();
