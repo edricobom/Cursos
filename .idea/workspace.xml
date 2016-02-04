@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac34789-9334-4d9b-9834-3342f435cdb6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pratica/php oo/eletronico.php" afterPath="$PROJECT_DIR$/Pratica/php oo/eletronico.php" />
     </list>
     <ignored path="Curso XHTML.iws" />
@@ -19,6 +20,9 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Curso XHTML" />
   </component>
@@ -27,8 +31,8 @@
       <file leaf-file-name="eletronico.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pratica/php oo/eletronico.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8660714">
-              <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            <state vertical-scroll-proportion="1.4330357">
+              <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -126,9 +130,71 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="XHTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/PHP basico/6/index.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/body/navegation.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/body/menu.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/body/header.php" />
+        <option value="$PROJECT_DIR$/Pratica/php2/pages/home.php" />
+        <option value="$PROJECT_DIR$/Pratica/php2/pages/header.php" />
+        <option value="$PROJECT_DIR$/Pratica/php2/pages/navegation.php" />
+        <option value="$PROJECT_DIR$/Pratica/php2/index.php" />
+        <option value="$PROJECT_DIR$/Pratica/php2/pages/login.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/body/navegation.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/index.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/index.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/body/style.css" />
+        <option value="$PROJECT_DIR$/PHP basico/7/index.php" />
+        <option value="$PROJECT_DIR$/PHP basico/8/index.php" />
+        <option value="$PROJECT_DIR$/PHP basico/8/sessões/index.php" />
+        <option value="$PROJECT_DIR$/PHP basico/8/sessões/secreto.php" />
+        <option value="$PROJECT_DIR$/PHP basico/8/sessoes/secreto.php" />
+        <option value="$PROJECT_DIR$/PHP basico/8/sessoes/logout.php" />
+        <option value="$PROJECT_DIR$/PHP basico/8/sessoes/index.php" />
+        <option value="$PROJECT_DIR$/PHP basico/9/index.php" />
+        <option value="$PROJECT_DIR$/PHP basico/9/email.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/style/style.css" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/body/header.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/header.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/home.php" />
+        <option value="$PROJECT_DIR$/Pratica/php/pages/login.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/head.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/home.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/ajuda.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/style/style.css" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/navegation.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/logout.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/index.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/verificalogin.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/login.php" />
+        <option value="$PROJECT_DIR$/PHP basico/10- site/header.php" />
+        <option value="$PROJECT_DIR$/PHP OO/2/funcional.php" />
+        <option value="$PROJECT_DIR$/PHP OO/2/OO.php" />
+        <option value="$PROJECT_DIR$/PHP OO/3/ICarro.php" />
+        <option value="$PROJECT_DIR$/PHP OO/namespaces/vendas/Carro.php" />
+        <option value="$PROJECT_DIR$/PHP OO/namespaces/fabrica/Carro.php" />
+        <option value="$PROJECT_DIR$/PHP OO/namespaces/index.php" />
+        <option value="$PROJECT_DIR$/PHP OO/namespaces/fabrica/Funcionario.php" />
+        <option value="$PROJECT_DIR$/PHP OO/DI/Usuario.php" />
+        <option value="$PROJECT_DIR$/PHP OO/debug/debug.php" />
+        <option value="$PROJECT_DIR$/PHP OO/SPL/arrayiterator.php" />
+        <option value="$PROJECT_DIR$/PHP OO/SPL/ArrayIterator.php" />
+        <option value="$PROJECT_DIR$/Pratica/php oo/index.php" />
+        <option value="$PROJECT_DIR$/PHP OO/DI/Exemplo2.php" />
         <option value="$PROJECT_DIR$/Pratica/php oo/eletronico.php" />
       </list>
     </option>
@@ -137,6 +203,16 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="." />
+      <path value="/usr/share/php" />
+      <path value="/usr/share/pear" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="35" />
@@ -315,18 +391,134 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="177" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="179" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="181" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="976" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="177" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="179" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="181" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="976" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PHP basico/10- site" />
+      <recent name="$PROJECT_DIR$/Pratica/php/pages/style" />
+      <recent name="$PROJECT_DIR$/Pratica/php/pages" />
+      <recent name="$PROJECT_DIR$/Pratica/php/pages/body" />
+      <recent name="$PROJECT_DIR$/Pratica/php2/pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PHP OO/namespaces" />
+      <recent name="$PROJECT_DIR$/PHP OO/DI" />
+      <recent name="$PROJECT_DIR$/PHP OO/SPL" />
+      <recent name="$PROJECT_DIR$/PHP OO/debug" />
+      <recent name="$PROJECT_DIR$/PHP OO/3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.eletronico.php">
+    <configuration default="false" name="debug.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cursos/PHP OO/debug/debug.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="arrayiterator.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP OO/SPL/arrayiterator.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayIterator.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cursos/PHP OO/SPL/ArrayIterator.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="eletronico.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cursos/Pratica/php oo/eletronico.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="Exemplo2.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cursos/PHP OO/DI/Exemplo2.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.debug.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.arrayiterator.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ArrayIterator.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.eletronico.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Exemplo2.php" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eletronico.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Exemplo2.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ArrayIterator.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.arrayiterator.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.debug.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ac34789-9334-4d9b-9834-3342f435cdb6" name="Default" comment="" />
+      <created>1453804732652</created>
+      <option name="number" value="Default" />
+      <updated>1453804732652</updated>
+    </task>
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="29" width="1600" height="871" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1477641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1477641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.49528936" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.49528936" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5154778" order="8" side_tool="true" content_ui="tabs" />
@@ -365,6 +557,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pratica/php oo/eletronico.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8660714">
-          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+        <state vertical-scroll-proportion="1.4330357">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding />
         </state>
       </provider>
