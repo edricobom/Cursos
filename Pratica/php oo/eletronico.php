@@ -8,12 +8,22 @@ ini_set("default_charset", 'utf-8');
  */
 abstract class Eletronico
 {
-
+    protected $nome;
     protected $valor;
     protected $consumo;
 
     protected function pula(){
         echo "<br />";
+    }
+
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
     }
     public function getValor(){
         return $this->valor;
@@ -45,7 +55,9 @@ interface IVideogame{
 class Celular extends Eletronico implements Icelular
 {
     private $tamanhotela;
-    public function __construct($preco,$wats,$tela){
+    public function __construct($nome,$preco,$wats,$tela)
+    {
+        $this->setNome($nome);
         $this->setValor($preco);
         $this->setConsumo($wats);
         $this->setTamanhotela($tela);
@@ -58,6 +70,8 @@ class Celular extends Eletronico implements Icelular
 
     public function exibirInformaces()
     {
+        echo $this->getNome();
+        $this->pula();
         echo $this->getValor();
         $this->pula();
         echo $this->getConsumo();
@@ -83,11 +97,14 @@ class Videogame extends Eletronico implements IVideogame
 
     public function exibirInformaces()
     {
+        echo $this->getNome();
+        $this->pula();
         echo $this->getValor();
         $this->pula();
         echo $this->getConsumo();
         $this->pula();
         $this->mostrarjogos();
+        $this->pula();
     }
     public function mostrarjogos()
     {
@@ -100,18 +117,32 @@ class Videogame extends Eletronico implements IVideogame
         }
     }
 
-    public function __construct($preco,$wats,$listajogos="")
+    public function __construct($nome,$preco,$wats,$listajogos="")
     {
+        $this->setNome($nome);
         $this->setValor($preco);
         $this->setConsumo($wats);
         $this->setListajogos($listajogos);
     }
 }
 
-$nokia = new Celular(400,200,20);
-$nokia->exibirInformaces();
+$nokia = new Celular("Nokia",400,200,20);
+    echo "celular criado\n";
+
 $jogos = array("Mario","Pokemon","Wii sports");
-$wii = new Videogame(800,300,$jogos);
+$wii = new Videogame("Wii",800,300,$jogos);
+    echo "videogame criado\n";
+
+
+$nokia->exibirInformaces();
 $wii->exibirInformaces();
 
+
+
+$senha = 123456;
+$salt= "hdasuidhasuidh;dhasuidhasi;dashuidhas";
+$salt_unico="duiasduiash";
+$senha_md5 = md5($senha.$salt.$salt_unico);
+
+echo $senha_md5;
 //@TODO ....
